@@ -72,3 +72,9 @@ Run with the interaction entity as the executor (as).
 ```mcfunction
 /execute as @n[type=minecraft:interaction] run function pinteraction:init_with_event {event:{right_click: "kill @s", left_click:"tp @s ~ ~10 ~"}}
 ```
+
+## License
+
+Pinteraction provides [MIT License](https://github.com/minkyet/Pinteraction/blob/master/LICENSE).
+
+The description in [pack.mcmeta](https://github.com/minkyet/Pinteraction/blob/master/pack.mcmeta) replaces the source citation.
