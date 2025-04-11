@@ -21,7 +21,7 @@ When used with the Axiom mod, you can right-click the Marker Gizmo to edit the e
 
 `event` compound inside data is defined as:
 
-```js
+```mcfunction
 event: {
     left_click?: string,
     right_click?: string
