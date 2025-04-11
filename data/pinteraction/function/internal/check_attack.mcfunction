@@ -5,13 +5,6 @@
 # @as
 #   type=interaction
 #   tag=pinteraction.interaction
-# @within pinteraction:internal/emit/*
+# @within pinteraction:internal/emit/left_click
 
-# if no target return fail
-execute unless data entity @s attack run return fail
-
-# load callback
-execute on passengers if entity @s[tag=pinteraction.event] run data modify storage pinteraction:event load set from entity @s data.event
-
-# remove target data
-data remove entity @s attack
+return run execute on attacker if entity @s[tag=pinteraction.player.this]
