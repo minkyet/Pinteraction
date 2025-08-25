@@ -1,13 +1,13 @@
 {
   "pack": {
     "pack_format": 71,
-    "supported_formats": [48, 71],
+    "supported_formats": [48, 81],
     "description": [
       {
         "text": "Pinteraction - interaction entity manager\n",
         "color": "gold"
       },
-      { "text": "1.1.0 for 1.21-1.21.5\n", "color": "white" },
+      { "text": "1.1.0 for 1.21-1.21.8\n", "color": "white" },
       { "text": "by durumi\n", "color": "green" },
       { "text": "https://github.com/minkyet/Pinteraction", "color": "blue" }
     ]

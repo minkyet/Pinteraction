@@ -34,8 +34,8 @@ event: {
 
 Summons an interaction entity and sets its event or NBT.
 
-> [!WARNING]
-> `Tags` cannot be changed in NBT. If you want to change `Tags`, you must modify them separately after summoning.
+> [!NOTE]
+> `Tags` apply to both Pinteraction and pinteraction event marker.
 
 **Examples**
 ```mcfunction

@@ -31,8 +31,15 @@ execute unless data storage pinteraction:temp options.event run \
         ], \
     }
 
+# separate Tags from nbt
+data modify storage pinteraction:temp options.Tags set from storage pinteraction:temp options.nbt.Tags
+data remove storage pinteraction:temp options.nbt.Tags
+
 # data merge nbt
 execute if data storage pinteraction:temp options.nbt run function pinteraction:internal/summon_with/nbt with storage pinteraction:temp options
+
+# add input tags
+execute if data storage pinteraction:temp options.Tags run function pinteraction:internal/summon_with/add_tag
 
 # join team
 team join pinteraction.interaction @e[type=interaction, distance=..0.1, tag=pinteraction.interaction.this, limit=1]
