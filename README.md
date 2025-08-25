@@ -39,7 +39,7 @@ Summons an interaction entity and sets its event or NBT.
 
 **Examples**
 ```mcfunction
-/function pinteraction:summon_with {options:{nbt:{width:0.5f, height:1.5f}, event:{right_click:"give @s apple", left_click:"give @s carrot"}}}
+/function pinteraction:summon_with {options:{nbt:{Tags:["my_tag"], width:0.5f, height:1.5f}, event:{right_click:"give @s apple", left_click:"give @s carrot"}}}
 ```
 
 ### pinteraction:set_event
