@@ -1,15 +1,13 @@
 {
   "pack": {
-    "pack_format": 88,
-    "min_format": 48,
-    "max_format": [88, 0],
-    "supported_formats": [48, 88],
+    "min_format": [107, 1],
+    "max_format": 107,
     "description": [
       {
         "text": "Pinteraction - interaction entity manager\n",
         "color": "gold"
       },
-      { "text": "1.2.2 for 1.21-1.21.9\n", "color": "white" },
+      { "text": "1.3 for 21.2\n", "color": "white" },
       { "text": "by minkyet\n", "color": "green" },
       { "text": "https://github.com/minkyet/Pinteraction", "color": "blue" }
     ]
